@@ -9,7 +9,7 @@ const Navbar = ({activeLink,setActiveLink}) => {
   return (
     <div className="layout">
       <nav className="sticky-navbar">
-        <div className="logo">
+        <div className="logo" onClick={()=>setActiveLink('Home')}>
           <Link to='/' style={{textDecoration:'none',color:'white'}}>
           <h1>FITNESS</h1>
           </Link>

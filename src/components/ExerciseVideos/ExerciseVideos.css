@@ -1,0 +1,35 @@
+.youtube__video{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.video__container{
+    max-width: 1200px;
+    /* height: 200px; */
+    margin: 0 auto;
+    /* border: 1px solid ; */
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+
+.video__card{
+    width: calc(100% / 3 -  10px);
+    height: 100%;
+    cursor: pointer;
+    white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  margin-bottom: 20px;
+
+
+}
+
+.video__card img{
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+}
+

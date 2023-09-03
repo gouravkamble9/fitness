@@ -13,7 +13,7 @@ const ExerciseDetails = ({exerciseDetails}) => {
         </div>
         <div className="right1">
             <h3>{exerciseDetails.name}</h3>
-            <p>Exercises keep ypu strong.{exerciseDetails.name} is one of the best <br/>exercise to traget your {exerciseDetails.target}.It will help you to improve your mood <br/> and gain energy.</p>
+            <p>Exercises keep you strong.{exerciseDetails.name} is one of the best <br/>exercise to traget your {exerciseDetails.target}.It will help you to improve your mood <br/> and gain energy.</p>
             <div className='info'>
                     <span><img className='icon' src={bodyPart} alt="" />{exerciseDetails.bodyPart}</span>
                     <span><img className='icon' src={equipment} alt="" />{exerciseDetails.equipment}</span>
