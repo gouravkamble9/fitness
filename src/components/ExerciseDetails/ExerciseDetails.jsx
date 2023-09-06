@@ -7,6 +7,7 @@ import target from '../../assets/target.png'
 const ExerciseDetails = ({exerciseDetails}) => {
     console.log(exerciseDetails)
   return (
+    <section className='ed'> 
     <div className='detail__exercise__container'>
         <div className="left1">
           <img src={exerciseDetails.gifUrl} alt="" />
@@ -21,6 +22,7 @@ const ExerciseDetails = ({exerciseDetails}) => {
             </div>
         </div>
       </div>
+      </section>
   )
 }
 

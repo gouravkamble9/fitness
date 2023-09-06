@@ -1,6 +1,6 @@
 import React from 'react'
 import './ExerciseVideos.css'
-import thumbnail from '../../assets/videoim.jpg'
+
 
 const ExerciseVideos = ({exerciseVideos}) => {
   return (

@@ -1,0 +1,12 @@
+.similar__exercise{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.similar__exercise__container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    overflow-x: auto;
+    justify-content: space-between;
+}
