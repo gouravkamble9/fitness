@@ -1,4 +1,4 @@
-// const REACT_APP_RAPID_API_KEY='2bee11497dmshd50827756d7f314p102652jsn87503a20c9f5'
+const REACT_APP_RAPID_API_KEY='2bee11497dmshd50827756d7f314p102652jsn87503a20c9f5'
 
 export const exerciseOptions = {
     method: 'GET',
