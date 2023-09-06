@@ -1,7 +1,6 @@
 .hero{
     width: 100%;
     height: calc(100vh - 65px);
-    background-color: aqua;
     background-image: url('../../assets/navImg.jpg');
     background-size: cover;
 }
