@@ -1,0 +1,12 @@
+.circle{
+    position: relative;
+}
+
+.circle svg{
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    margin-bottom:20px ;
+    margin-right: 30px;
+
+}

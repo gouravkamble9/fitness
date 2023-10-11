@@ -56,7 +56,7 @@ const Exercises = ({exercises,bodyPart,setExercises}) => {
         <h2>Showing Results</h2>
     </div>
         <div className='exercise__container'>
-            {prod.slice(page * 10 - 10,page * 10).map((item,id)=>(
+            {prod.slice(page * 9 - 9,page * 9).map((item,id)=>(
 
             <ExerciseCard key={id} data={item}/>
             ))}

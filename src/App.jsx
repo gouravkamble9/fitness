@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer'
 import Home from './pages/Home'
 import Exercise from './pages/Exercise'
 import { useState } from 'react'
+import GotoTop from './components/goTop/GotoTop'
 
 const App = () => {
   const [activeLink,setActiveLink]=useState('Home')
@@ -16,6 +17,7 @@ const App = () => {
       <Route path='/' element={<Home/>}/>
       <Route path='/exercise/:id' element={<Exercise setActiveLink={setActiveLink}/>}/>
     </Routes>
+    <GotoTop/>
     <Footer/>
     </BrowserRouter>
   )
