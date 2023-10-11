@@ -1,8 +1,19 @@
-# React + Vite
+# Fitness Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is a Fitness Web App built using React.js and integrated with the RapidAPI platform to provide users with access to a wide range of exercise-related information. The app allows users to search for exercises by body part, view detailed exercise descriptions, watch exercise videos, and discover related fitness content.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Search by Body Part**: Users can search for exercises specifically targeting a particular body part, making it easy to find exercises tailored to their fitness goals.
+
+- **Detailed Exercise Information**: Detailed information about each exercise, including muscle groups worked, equipment needed, and instructions, is available to help users perform exercises correctly and safely.
+
+- **Exercise Videos**: Users can watch exercise demonstration videos to ensure proper form and technique while working out.
+
+- **Related Videos**: The app provides related fitness videos to help users explore a variety of workouts, nutrition tips, and health-related content.
+
+- ## Live Demo
+
+Check out the live demo of the Fitness Web App https://fitnessapp-react-app.netlify.app/.
