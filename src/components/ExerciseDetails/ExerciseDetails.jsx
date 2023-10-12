@@ -5,7 +5,7 @@ import equipment from '../../assets/equipment.png'
 import target from '../../assets/target.png'
 
 const ExerciseDetails = ({exerciseDetails}) => {
-    console.log(exerciseDetails)
+    
   return (
     <section className='ed'> 
     <div className='detail__exercise__container'>
