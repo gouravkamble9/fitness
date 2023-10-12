@@ -61,7 +61,7 @@ const Exercises = ({exercises,bodyPart,setExercises}) => {
             <ExerciseCard key={id} data={item}/>
             ))}
         </div>
-        <div className='pagination'>
+        {exercises.length>0 && (<div className='pagination'>
           <span onClick={handlePrev}>{<BsFillArrowLeftCircleFill/>}</span>
           {
             [...Array(prod.length/10)].map((_,i)=>(
@@ -73,7 +73,7 @@ const Exercises = ({exercises,bodyPart,setExercises}) => {
             ))
           }
           <span onClick={handleNext} style={{marginLeft:'10px'}}>{<BsFillArrowRightCircleFill/>}</span>
-        </div>
+        </div>)}
     </section>
   )
 }
