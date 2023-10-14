@@ -22,7 +22,8 @@
 }
 
 .container:hover{
-    color: rgb(72, 96, 138);
+    background-color: gray;
+    color: rgb(255, 255, 255);
     border: none;
     box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
